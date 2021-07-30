@@ -13,6 +13,7 @@ Principais funcionalidades:
  E muito mais... 
  
  Compatível com Delphi XE5 a Delphi 10.4.2 Sydney
+ VCL - 32 e 64 bits
  
  # Como instalar:
   - Faça o clone do repositório.
