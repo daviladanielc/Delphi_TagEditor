@@ -19,4 +19,4 @@ Principais funcionalidades:
   - Adicione a pasta aonde está o fonte DTagEditor.pas, no library path do Delphi. 
   - Execute o pacote TagEditor.dpk, faça o build e então clique com o botão direito do mouse em cima do nome do pacote no Project Manager e já em "Install".
   
-  
+![](https://github.com/daviladanielc/Delphi_TagEditor/blob/main/images/DelphiTagEditor.png?raw=true)  
