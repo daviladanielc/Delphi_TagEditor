@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/07/29 21:38:08.000.078,=rtl.dcp</Transaction>
+    <Transaction>2021/07/29 21:38:38.000.813,=C:\Users\Note\Documents\Embarcadero\Studio\Projects\TagEditor\DTagEditor.pas</Transaction>
+    <Transaction>2021/07/29 21:38:38.000.828,=DComponents.dcp</Transaction>
+    <Transaction>2021/07/29 21:38:38.000.828,=vcl.dcp</Transaction>
+    <Transaction>2021/07/29 21:38:42.000.922,C:\Users\Note\Documents\Embarcadero\Studio\Projects\TagEditor\DTagEditor.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
