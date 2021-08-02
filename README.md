@@ -51,3 +51,7 @@ Improved by Daniel C. Dávila
 
 -If you edit or improve the component, please make the pull request.
 -Report errors for correction
+
+<html>
+<a href="http://torry.net" title="Torry's Delphi Pages"><img src="http://torry.net/banners/torry/Torry_234x60.png" width="234" height="60" alt="Torry's Delphi Pages"></a>
+</html>
