@@ -329,7 +329,6 @@ begin
   FEdit.OnKeyPress := EditKeyPress;
   FEdit.OnEnter := EditEnter;
   FEdit.OnExit := EditExit;
-
   FTags := CreateTags(Self);
 
   FBgColor := clWindow;
@@ -833,6 +832,8 @@ begin
                 FTags.Delete(i);
                 if Assigned(FTagRemoved) then
                   FTagRemoved(Self, i);
+                UpdateMetrics;
+                Paint;
               end;
           end;
         end;
@@ -1137,6 +1138,8 @@ begin
     end;
   finally
     LStrList.Free;
+    UpdateMetrics;
+    Paint;
   end;
 end;
 
