@@ -32,5 +32,8 @@ requires
   rtl,
   vcl;
 
+contains
+  DTagEditor in 'DTagEditor.pas';
+
 end.
 
