@@ -1238,6 +1238,8 @@ begin
   result.FTagBgColor := AItemConfig.TagBgColor;
   result.FTagBorderColor := AItemConfig.TagBorderColor;
   result.FTextColor := AItemConfig.TextColor;
+  REsult.FTagValue:= AItemConfig.TagValue;
+  FTagEditor.UpdateMetrics;
 end;
 
 function TTags.Add(AText: String): TTagItem;
@@ -1248,6 +1250,7 @@ begin
   result.FTagBgColor := FTagEditor.FTagBgColor;
   result.FTagBorderColor := FTagEditor.FTagBorderColor;
   result.FTextColor := FTagEditor.FTextColor;
+  FTagEditor.UpdateMetrics;
 end;
 
 constructor TTags.Create(ATagEditor: TDTagEditor;
@@ -1263,7 +1266,8 @@ var
 begin
   while Self.Count > 0 do
     Self.Delete(0);
-
+  FTagEditor.UpdateMetrics;
+  FTagEditor.Repaint;
 end;
 
 function TTags.DelimitedText: String;
